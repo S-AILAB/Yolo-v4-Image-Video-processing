@@ -55,32 +55,9 @@ compressed_cars_path = "output_cars_compressed.mp4"
 # Compress the car video using ffmpeg
 os.system(f"ffmpeg -i {input_cars_path} -vcodec libx264 {compressed_cars_path}")</code></pre>
 
-    <h2>Output Results</h2>
-    <h3>Image Output</h3>
-    <p>The detected objects in the image <code>market.jpg</code> are saved as <code>market_output.jpg</code>.</p>
-    <img src="market_output.jpg" alt="Market Image Output" width="600">
-
-    <h3>Video Output</h3>
-    <p>The detected objects in the video <code>test.mp4</code> are saved as <code>test_output.mp4</code> and then compressed to <code>output_compressed.mp4</code>.</p>
-    <p>The detected objects in the video <code>cars(1).mp4</code> are saved as <code>cars_output.mp4</code> and then compressed to <code>output_car_compressed.mp4</code>.</p>
-
-    <h2>Display Video Results</h2>
-    <h3>Test Video</h3>
-    <video width="800" height="400" controls>
-        <source src="output_compressed.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <h3>Cars Video</h3>
-    <video width="800" height="400" controls>
-        <source src="output_car_compressed.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
 
     <h2>Contributors</h2>
-    <p>Project developed by [Your Name].</p>
+    <p>Project developed by Siddharth Jain.</p>
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License.</p>
 </body>
 </html>
