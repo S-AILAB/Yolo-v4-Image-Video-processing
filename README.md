@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>YOLOv4 Object Detection Project</title>
-</head>
+
 
 <body>
     <h1>YOLOv4 Object Detection Project</h1>
